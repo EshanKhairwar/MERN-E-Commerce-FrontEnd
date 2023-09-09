@@ -8,7 +8,6 @@ import Container from '../components/Container';
 
 const OurStore = () => {
     const [grid,setGrid]=useState(4);
-   
     return <>
         <Meta title="Our Store" />
         <BreadCrumb title="Our Store" />
@@ -132,9 +131,10 @@ const OurStore = () => {
                            <div className="d-flex justify-content-between align-items-center">
                            <div className="d-flex align-items-center gap-10">
                                 <p className="mb-0 d-block" style={{"width":"100px"}}>Sort By:</p>
-                                <select name="" id="" className="form-control form-select">
+                                <select name="" defaultValue={"manual"} id="" className="form-control form-select">
+                                    
                                     <option value="manual">Featured</option>
-                                    <option value="best-selling" selected="selected">Best Selling</option>
+                                    <option value="best-selling">Best Selling</option>
                                     <option value="title-ascending">Alphabetically, A to Z</option>
                                     <option value="title-descending">Alphabetically, Z to A</option>
                                     <option value="price-ascending">Price, low to high</option>
