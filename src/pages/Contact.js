@@ -13,7 +13,7 @@ const Contact = () => {
              
               <div className="row">
                 <div className="col-12">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118815.46556615473!2d80.13416458818082!3d21.46917193288789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2baead0a4b0175%3A0x718607d421888196!2sGondia%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1693308346990!5m2!1sen!2sin" width="600" height="450" className='border-0 w-100' allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118815.46556615473!2d80.13416458818082!3d21.46917193288789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a2baead0a4b0175%3A0x718607d421888196!2sGondia%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1693308346990!5m2!1sen!2sin" width="600" height="450" className='border-0 w-100' allowfullscreen="" loading="lazy" referrerPolicy='no-referrer'></iframe>
                 </div>
                 <div className="col-12 mt-5">
                   <div className="contact-inner-wrapper d-flex justify-content-between">
